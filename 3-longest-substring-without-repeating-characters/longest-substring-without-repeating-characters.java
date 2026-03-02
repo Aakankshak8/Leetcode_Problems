@@ -11,7 +11,7 @@ class Solution {
 
                 boolean duplicate = false;
 
-                // Check if s[j] appeared before between i and j-1
+                
                 for (int k = i; k < j; k++) {
                     if (s.charAt(k) == s.charAt(j)) {
                         duplicate = true;
